@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Newsroom — Rockstar Updates</title>
+  <meta name="description" content="Pro aesthetic responsive newswire-style template with Rockstar update summaries." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site" role="application">
+    <header>
+      <div class="brand">
+        <div class="logo">NW</div>
+        <div class="sitename">
+          <div class="title">Newsroom</div>
+          <div class="sub">News & updates</div>
+        </div>
+      </div>
+
+<nav>
+  <a class="nav-btn" href="https://discord.gg/hd3SYGxpb5" target="_blank" rel="noopener noreferrer">Games</a>
+  <a class="nav-btn" href="https://discord.gg/hd3SYGxpb5" target="_blank" rel="noopener noreferrer">Updates</a>
+  <a class="nav-btn" href="https://discord.gg/hd3SYGxpb5" target="_blank" rel="noopener noreferrer">Events</a>
+  <a class="cta" href="https://discord.gg/hd3SYGxpb5" target="_blank" rel="noopener noreferrer">Subscribe</a>
+</nav>
+
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Featured news">
+        <div class="hero-left">
+          <div class="kicker">Featured</div>
+          <h1>Money Fronts Now Live in GTA Online</h1>
+          <p>Take over local businesses, route your earnings, and expand your criminal empire in GTA Online’s newest major update.</p>
+
+          <div class="featured-card">
+            <div class="featured-thumb" aria-hidden="true"></div>
+            <div class="featured-info">
+              <div class="meta">June 2025 • GTA Online Update</div>
+              <div class="featured-title">Money Fronts Now Available</div>
+              <div class="featured-excerpt">Businesses are open for takeover — the new update is live.</div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="controls">
+            <input id="search" class="search" placeholder="Search news" aria-label="Search news" />
+          </div>
+          <div class="filters" id="tags"></div>
+        </aside>
+      </section>
+
+      <section id="list" aria-live="polite">
+        <div class="grid" id="grid"></div>
+        <button id="loadMore" class="load-more">Load more</button>
+      </section>
+    </main>
+
+    <footer>
+      This site is a demo template. Content adapted from Rockstar Newswire updates for example purposes only.
+    </footer>
+  </div>
+
+  <!-- modal -->
+  <div id="modal" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-card" role="document">
+      <div class="modal-header">
+        <div id="modalTitle">Title</div>
+        <button class="close" id="closeModal">✕</button>
+      </div>
+      <div id="modalBody" class="modal-body">Article details will appear here when you click a card.</div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
